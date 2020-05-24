@@ -1,0 +1,14 @@
+{
+  "name": "salps",
+  "version": "0.0.4",
+  "description": "Simple and ligth persisted state",
+  "main": "index.js",
+  "author": "Thiago Bevenuto",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "^16.13.1"
+  },
+  "optionalDependencies": {
+    "@react-native-community/async-storage": "^1.10.3"
+  }
+}
