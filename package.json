@@ -1,14 +1,24 @@
 {
   "name": "salps",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Simple and ligth persisted state",
   "main": "index.js",
   "author": "Thiago Bevenuto",
   "license": "MIT",
-  "devDependencies": {
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "native": "./node_modules/.bin/babel src-native --out-file native/index.js"
+  },
+  "peerDependencies": {
+    "@react-native-community/async-storage": "^1.10.3",
     "react": "^16.13.1"
   },
-  "optionalDependencies": {
-    "@react-native-community/async-storage": "^1.10.3"
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

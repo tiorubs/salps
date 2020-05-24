@@ -97,8 +97,13 @@ function Dashboard() {
 
 using the hook useSALPS you can acess :
 
-{
 loading // true until the storage load
+
 state // all state
+
 dispatch // function to dispatch actions to change state
-}
+
+## TODO
+
+> better readme
+> to TypeScript
